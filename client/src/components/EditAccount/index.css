@@ -1,0 +1,34 @@
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+.cancel{
+    justify-content: right;
+}
+
+.container{
+    text-align: center;
+    margin-top: 25vh;
+  }
+
+.delete{
+    text-decoration: underline;
+    justify-content: right;
+}
+
+.deleteBtn{
+    margin-top: 50px !important;
+}
+
+.email-input,
+.password-input {
+  margin-top: 20px;
+}
+
+.gray{
+    color: gray;
+}

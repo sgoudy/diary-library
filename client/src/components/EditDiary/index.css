@@ -1,0 +1,15 @@
+.editHeader {
+  align-items: center;
+}
+
+.header-text {
+  color: gray;
+}
+
+.delete{
+  justify-content: end;
+}
+
+.deleteBtn{
+  color: red;
+}

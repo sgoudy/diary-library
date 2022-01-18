@@ -1,0 +1,32 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.containerLanding{
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.welcome-message .header-text,
+.welcome-message .sub-text {
+  color: gray;
+}
+
+.email-input,
+.password-input {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.sub-text{
+  margin-bottom: 20px !important;
+}

@@ -1,0 +1,2 @@
+# Ignore these resources when auto deploying to Heroku
+docs/

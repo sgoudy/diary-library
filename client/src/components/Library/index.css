@@ -1,0 +1,73 @@
+.library-container {
+  padding-top: 70px;
+}
+
+.leftHeader {
+  text-align: left;
+}
+
+.rightHeader {
+  text-align: center;
+}
+
+.leftSide {
+  padding: 20px;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.leftSide .list:hover {
+  cursor: pointer;
+}
+
+.book {
+  margin: 20px;
+  padding: 80px;
+}
+
+.book:hover {
+  cursor: pointer;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.view-books {
+  display: inline;
+  flex-wrap: unset;
+}
+
+.diaries {
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+
+.title,
+.description {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 20px !important;
+}
+
+.closePopup {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
